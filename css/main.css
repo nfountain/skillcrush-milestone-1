@@ -35,16 +35,17 @@ header, main, section, footer {
     clear: both;
     width: 100%;
 }
-.left {
+
+.left, .right {
     display: inline-block;
     float: left;
     width: 50%;
 }
 
-.right {
+.third-width {
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 33%;
 }
 
 /*** Header Section ***/
