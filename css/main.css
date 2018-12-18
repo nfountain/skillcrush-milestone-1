@@ -7,9 +7,42 @@ body {
     font-size: 1em;
 }
 
-h1, h2, h3, h4, h5, h6, nav ul li {
+h1, h2, p.name, nav ul li {
     text-transform: lowercase;
-} 
+}
+
+h1 {
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+/*** Layout ***/
+
+header, main, section, footer {
+    overflow: auto;
+    width: 100%;
+}
+
+.full-width {
+    clear: both;
+    width: 100%;
+}
+.left {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.right {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
 
 /*** Header Section ***/
 
@@ -22,7 +55,7 @@ header {
     height: 400px;
 }
 
-h1 {
+p.name {
     display: inline-block;
     float: left;
     min-width: 50%;
@@ -50,6 +83,16 @@ nav ul li a {
     line-height: 1.2em;
 }
 
-p {
-    clear: both;
+/*** Portfolio Section ***/
+
+img.thumbnail {
+    width: 80%;
+    max-width: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left p, .right p {
+    padding-left: 10%;
+    padding-right: 10%;
 }
