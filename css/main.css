@@ -31,6 +31,12 @@ h2 {
 header, main, section, footer {
     overflow: auto;
     width: 100%;
+    max-width: 800px;
+}
+
+#portfolio, #about, #contact {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .full-width {
@@ -42,6 +48,7 @@ header, main, section, footer {
     display: inline-block;
     float: left;
     width: 50%;
+    margin: 2% 0;
 }
 
 .third-width {
@@ -96,14 +103,19 @@ nav ul li a {
 /*** Portfolio Section ***/
 
 img.thumbnail {
-    width: 80%;
+    width: 85%;
     max-width: 300px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.left h3, .right h3, .left p, .right p {
+.left img.thumbnail, .left h3, .left p {
     padding-left: 10%;
+    padding-right: 5%;
+}
+
+.right img.thumbnail, .right h3, .right p {
+    padding-left: 5%;
     padding-right: 10%;
 }
 
@@ -112,4 +124,42 @@ img.thumbnail {
     font-size: .85em;
 }
 
+/*** About Me Section ***/
+
+
 /*** Contact Section ***/
+
+.connect {
+    text-align: center;
+}
+
+.email {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    line-height: 1.2em;
+}
+
+footer ul {
+    padding-left: .5em
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    line-height: 1.2em;
+    padding: 0 1em;
+}
+
+.minimize {
+    text-align: center;
+    font-style: italic;
+    font-size: .8em;
+    padding: 4% 0;
+}
