@@ -23,13 +23,14 @@ h2 {
 .title {
     font-size: 1em;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
 /*** Layout ***/
 
 header, main, section, footer {
     overflow: auto;
-    width: 80%;
+    width: 100%;
 }
 
 .full-width {
@@ -56,7 +57,7 @@ header {
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 2.5em;
+    background-position: 0 3em;
     height: 600px;
 }
 
@@ -101,9 +102,14 @@ img.thumbnail {
     padding-right: 10%;
 }
 
-.left p, .right p {
+.left h3, .right h3, .left p, .right p {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.project-type {
+    margin-top: 0;
+    font-size: .85em;
 }
 
 /*** Contact Section ***/
