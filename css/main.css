@@ -21,6 +21,7 @@ h2 {
 }
 
 .title {
+    font-size: 1em;
     font-weight: 700;
 }
 
@@ -28,7 +29,7 @@ h2 {
 
 header, main, section, footer {
     overflow: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .full-width {
@@ -56,7 +57,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 2.5em;
-    height: 400px;
+    height: 600px;
 }
 
 p.name {
@@ -104,3 +105,5 @@ img.thumbnail {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+/*** Contact Section ***/
