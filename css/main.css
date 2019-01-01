@@ -46,8 +46,9 @@ h2 {
 .third-width {
     display: inline-block;
     float: left;
-    width: 33%;
-}
+    width: 25%;
+    padding-left: 4%;
+    padding-right: 4%;}
 
 /*** Header Section ***/
 
@@ -125,6 +126,7 @@ img.thumbnail {
     text-decoration: none;
     color: rgb(250, 250, 250);
     line-height: 1.2em;
+    padding-left: 4%;
 }
 
 footer ul {
@@ -136,7 +138,6 @@ footer ul li {
     display: inline-block;
     float: left;
     text-align: right;
-    padding: 0;
 }
 
 footer ul li a {
