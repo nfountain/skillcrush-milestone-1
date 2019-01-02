@@ -4,27 +4,40 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(250, 250, 250);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-/*    margin: 0 auto 0 auto;*/
+    font-size: 1.15em;
+    margin: 0 auto;
 }
 
 h1, h2, p.name, nav ul li {
     text-transform: lowercase;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Source Code Pro', monospace;
+    padding-top: 10.5%;
+    color: rgb(115, 48, 99);
+    font-weight: 700;
+    font-size: 2.15em;
 }
 
 h2 {
+    margin-bottom: 1%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
     text-align: center;
-    color: rgb(250, 0, 117);
+    color: rgb(242, 115, 8);
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    color: rgb(255, 222, 127);
 }
 
 .title {
-    font-size: 1em;
-    font-weight: 700;
     margin-bottom: 0;
+    /*color: rgb(255, 215, 117);*/
 }
 
 /*** Layout ***/
@@ -39,26 +52,36 @@ h2 {
     display: inline-block;
     float: left;
     width: 42%;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding: 2% 4%;
 }
 
 .third-width {
     display: inline-block;
     float: left;
     width: 25%;
-    padding-left: 4%;
-    padding-right: 4%;}
+    padding: 1% 4%;
+}
+
+.left-col {
+    max-width: 520px;
+    margin-left: auto;
+}
+
+.right-col {
+    max-width: 520px;
+    margin-right: auto;
+}
 
 /*** Header Section ***/
 
+/* Hero Image Photo by Markus Spiske on Unsplash, downloaded on 01/02/19. */
 header {
-    background: rgb(0, 0, 0) url(../img/hero-background.png);
+    background: rgb(0, 0, 0) url(../img/hero.jpg);
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 3em;
-    height: 600px;
+    height: 650px;
 }
 
 p.name {
@@ -66,14 +89,14 @@ p.name {
     float: left;
     min-width: 50%;
     max-width: 300px;
-    font-size: 1em;
-    line-height: 1.2em;
+    padding-left: 1%;
+    line-height: 1.25em;
 }
 
 nav ul {
     float: right;
-    list-style-type: none;
     max-width: 50%;
+    padding-right: 1%;
 }
 
 nav ul li {
@@ -90,31 +113,39 @@ nav ul li a {
 }
 
 .emphasis {
-    color: rgb(250, 0, 117);
+    color: rgb(242, 115, 8);
 }
 
 /*** Portfolio Section ***/
 
 img.thumbnail {
     width: 100%;
-    max-width: 300px;
 }
 
 .project-type {
+    font-family: 'Open Sans', sans-serif;
     margin-top: 0;
-    font-size: .85em;
 }
 
 /*** About Me Section ***/
 
 #about {
-    background: rgb(0, 0, 0) url(../img/about-me.png);
+    background: rgb(12, 14, 13) url(../img/about-me.jpg);
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 450px;
 }
 
+#about img {
+    max-width: 100%;
+    opacity: .9;
+}
+
+#about .half-width {
+    padding: 2% 4% 0 4%;
+}
 
 /*** Contact Section ***/
 
@@ -130,14 +161,13 @@ img.thumbnail {
 }
 
 footer ul {
-    padding-left: .5em
+    padding-left: 0;
+    text-align: center;
 }
 
 footer ul li {
     list-style-type: none;
     display: inline-block;
-    float: left;
-    text-align: right;
 }
 
 footer ul li a {
