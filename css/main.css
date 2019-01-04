@@ -126,6 +126,11 @@ img.thumbnail {
     width: 100%;
 }
 
+h3 a {
+    text-decoration: none;
+    color: rgb(255, 222, 127);
+}
+
 .project-type {
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;

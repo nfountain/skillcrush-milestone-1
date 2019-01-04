@@ -1,0 +1,100 @@
+body {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    background-color: #f0f0f0;
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+main {
+    background-color: #50CCBA;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1% 0 1% 0;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.25em;
+    line-height: 1.3em;
+    border: 2px #50CCBA solid;
+    margin: 1% 0;
+}
+
+/* LAYOUT */
+.block {
+    clear: both;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.layout-1a {
+    float: left;
+    text-align: left;
+    width: 35%;
+    padding: 0 2%;
+    background-color: #36998D;
+}
+
+.layout-1b {
+    float: left;
+    text-align: left;
+    width: 54%;
+    padding: 0 2%;
+}
+
+.layout-2a {
+    float: left;
+    text-align: right;
+    width: 60%;
+    padding: 0 2%;
+}
+
+.layout-2b {
+    float: left;
+    text-align: right;
+    width: 29%;
+    padding: 0 2%;
+    background-color: #36998D;
+}
+
+footer {
+    clear: both;
+    margin: 1%;
+    padding: 1%;
+    font-style: italic;
+}
+
+/* Text styling **/
+
+.offset-font {
+    font-family: 'Catamaran', sans-serif;
+    font-variant: small-caps;
+}
+
+.purpose {
+    font-weight: 700;
+    color: #f13d0b;
+}
+
+.emphasize {
+    font-style: italic;
+    color: #f7b733;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.normal {
+    color: #000000;
+    font-size: 1em;
+    padding: 1% 0;
+}
+
+.grow {
+    font-style: italic;
+    font-weight: 700;
+    color: #446625;
+}
