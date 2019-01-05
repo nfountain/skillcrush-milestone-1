@@ -136,14 +136,14 @@ a #tel {
 
 /* --- Footer --- */
 
-footer {
+.tagline {
     clear: both;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-footer span {
+.emphasis {
     text-transform: none;
     font-family: 'Yesteryear', cursive;
     font-weight: normal;
@@ -151,4 +151,10 @@ footer span {
     line-height: 23px;
     color: #77a466;
     padding: 20px 0 30px 0;
+}
+
+.return {
+    text-align: center;
+    font-style: italic;
+    padding: 15px 0;
 }
