@@ -79,7 +79,7 @@ p {
 
 /* Hero Image Photo by Markus Spiske on Unsplash, downloaded on 01/02/19. */
 header {
-    background: rgb(0, 0, 0) url(../img/hero.jpg);
+    background: rgb(0, 0, 0) url(../images/hero.jpg);
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@ h3 a {
 /*** About Me Section ***/
 
 #about {
-    background: rgb(12, 14, 13) url(../img/about-me.jpg);
+    background: rgb(12, 14, 13) url(../images/about-me.jpg);
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;

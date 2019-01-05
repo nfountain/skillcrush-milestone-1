@@ -1,0 +1,213 @@
+/* LEFT TODO: 
+*** make images responsive (background, icons, and contact image)
+*** make fonts responsive
+*** Change img tags to figure tags (in both css & html) to increase accessibility?
+
+/* Styling for main blocks/containers */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+
+/* Layouts */
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 50%;
+    min-width: 300px;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    min-width: 200px;
+    float: left;
+}
+
+/* Sections */
+
+#about, #work, #contact {
+    overflow: auto;
+}
+
+/* Header */
+
+header {
+    height: 800px;
+    background: #ececec url(../featured-work/jubilee-austen-project/images/hero.png);
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #a2a2a2;
+    padding-left: 80px;
+}
+
+a:hover, a:focus {
+    cursor: pointer;
+    color: #a2a2a2;
+    font-weight: 600;
+    background-color: #dadada;
+}
+
+a:visited {
+    color: #a2a2a2;
+}
+
+a[href="#menu"] {
+    clear: both;
+    float: right;
+    font-size: 21px;
+    line-height: 40px;
+    color: #7f7f7f;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+/* About Section */
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    font-size: 21px;
+    line-height: 40px;
+    color: #7f7f7f;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Work */
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: #ffffff 12px solid;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-size: 29px;
+    line-height: 44px;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+}
+
+#contact a[href^="mail"] {
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c49075;
+}
+
+#contact ul li {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+#contact ul li a img {
+    padding-left: 64px;
+}
