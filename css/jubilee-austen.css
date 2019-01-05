@@ -211,3 +211,11 @@ header h2 span {
 #contact ul li a img {
     padding-left: 64px;
 }
+
+.normal {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 25px 0;
+    text-align: center;
+}
