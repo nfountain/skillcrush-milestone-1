@@ -51,6 +51,12 @@ p {
     width: 100%;
 }
 
+.max-width {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .half-width {
     display: inline-block;
     float: left;
