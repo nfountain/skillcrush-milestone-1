@@ -105,6 +105,11 @@ body {
     margin: 20px;
 }
 
+.pg-max-width {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
     text-decoration: none;
